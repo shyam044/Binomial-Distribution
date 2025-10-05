@@ -138,11 +138,41 @@
       </ul>
     </div>
 
+    <!-- Poisson Distribution Section -->
+    <h3 class="section-title"><i class="fas fa-dot-circle icon"></i>Poisson Distribution</h3>
+    <p>The <strong>Poisson distribution</strong> models the number of events occurring in a fixed interval of time or space when the events happen with a known constant mean rate and independently of the time since the last event.</p>
+
+    <h3 class="section-title"><i class="fas fa-percentage icon"></i>Probability Mass Function (PMF)</h3>
+    <div class="formula">
+      <p><strong>P(k) = (e<sup>-λ</sup> · λ<sup>k</sup>) / k!</strong></p>
+      <p>Where <strong>λ = n · p</strong> is the expected number of occurrences.</p>
+    </div>
+
+    <h3 class="section-title"><i class="fas fa-calculator icon"></i>Mean</h3>
+    <div class="formula">
+      <p><strong>E(X) = λ = n · p</strong></p>
+    </div>
+
+    <h3 class="section-title"><i class="fas fa-chart-line icon"></i>Variance</h3>
+    <div class="formula">
+      <p><strong>Var(X) = λ = n · p</strong></p>
+    </div>
+
+    <div class="note-box">
+      <h5><i class="fas fa-lightbulb icon"></i>Tips:</h5>
+      <ul>
+        <li>Use when <strong>n</strong> is large and <strong>p</strong> is very small (≈ 0.01).</li>
+        <li>Useful when calculating rare events over a large number of trials.</li>
+        <li>Poisson is often used as an approximation to Binomial under these conditions.</li>
+        <li>Mean and variance are equal: both are λ.</li>
+      </ul>
+    </div>
+
   </div>
 
   <!-- Prev / Next Navigation -->
   <div class="nav-buttons">
-    <a href="https://shyam044.github.io/Discrete-Random-Variable/" class="btn btn-danger btn-custom"><i class="fas fa-arrow-left"></i> Prev</a>
+    <a href="https://shyam044.github.io/Continuous-Random-Variable/" class="btn btn-danger btn-custom"><i class="fas fa-arrow-left"></i> Prev</a>
     <a href="#" class="btn btn-primary btn-custom">Next <i class="fas fa-arrow-right"></i></a>
   </div>
 
@@ -153,3 +183,5 @@
 </body>
 
 </html>
+
+
